@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* start nav */
+nav{
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav .socialmedia a{
+    color: #fff;
+    margin: 0 15px;
+}
+nav .socialmedia a:hover{
+    font-size: 18px;
+   
+}
+nav .search a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+/* end nav */
+.BLOGLIFE{
+    width: 100%;
+}
+.BLOGLIFE h1,h5{
+text-align: center;
+margin: 40px auto;
+}
+/* start header */
+header{
+    clear: both;
+    margin:0px auto;
+    width: 100%;
+}
+@media(max-width:768px){
+    header{
+        width: 100%;
+    }
+}
+
+
+header .head .jane{
+    position: absolute;
+    z-index: 555555;
+    padding-top: 300px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+ @media (max-width:768px){
+    header .head .jane{
+     position: absolute;
+    z-index: 555555;
+    margin-top: 70px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    }
+} 
+
+header .head .jane1{
+   position: absolute;
+    z-index: 555555;
+    padding-top: 360px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 40px;
+} 
+ @media (max-width:768px){
+    header .head .jane1{
+     position: absolute;
+    z-index: 555555;
+    margin-top: 90px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    }
+} 
+ 
+header #btn{
+   position: absolute;
+    z-index: 555555;
+    margin-top: 430px;
+    margin-left: 30px;
+    padding: 10px 15px;
+    color: #fff;
+    opacity: .6;
+    cursor: pointer;
+    background-color: rgb(168, 165, 165);
+}
+
+header #btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+ @media (max-width:768px){
+    header #btn{
+     position: absolute;
+    z-index: 555555;
+    margin-top: 130px;
+    margin-left: 20px;
+    padding: 7px 15px;
+    }
+} 
+/* end header */
+.flex{
+    display: flex;
+    justify-content: space-between;
+     background-color: rgb(190, 189, 189);
+
+}
+@media (max-width:768px){
+    .flex{
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+
+    }
+}
+.section1{
+    display: block;
+    width: 60%;
+}
+@media (max-width:768px){
+    .section1{
+        display: block;
+        width: 100%;
+    }
+}
+.div1 h1 {
+    margin-top: 20px;
+}
+
+.div1 .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.div1 .like{
+     margin: 50px 20px; 
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.div1 .replay{
+   margin: 50px 20px; 
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.div1 .replay .a1{
+    background-color: #fff;
+    float: right;
+    padding: 1px 3px;
+    color: black;
+}
+.div1 .smoke{
+    margin: 20px 20px;
+}
+.div1 .p1{
+text-align: center;
+position: relative;
+bottom: 70px;
+}
+
+@media (max-width:768px){
+    .div1 .p1{
+        padding-top: 10px;
+        text-align: start;
+        bottom: 0;
+    }
+}
+.div2 h1{
+    margin-top: 50px;
+}
+.div2 .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.div2 .like{
+     margin: 50px 20px; 
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.div2 .replay{
+   margin: 50px 20px; 
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.div2 .replay .a1{
+    background-color: #fff;
+    float: right;
+    padding: 1px 3px;
+    color: black;
+}
+.div2 .smoke{
+    margin: 20px 20px;
+}
+.div2 .p1{
+text-align: center;
+position: relative;
+bottom: 70px;
+}
+@media (max-width:768px){
+    .div2 .p1{
+        padding-top: 10px;
+        text-align: start;
+        bottom: 0;
+    }
+}
+.div3 h1{
+    margin-top: 50px;
+}
+.div3 .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.div3 .like{
+     margin: 50px 20px; 
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.div3 .replay{
+   margin: 50px 20px; 
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.div3 .replay .a1{
+    background-color: #fff;
+    float: right;
+    padding: 1px 3px;
+    color: black;
+}
+.div3 .smoke{
+    margin: 0px 0px;
+}
+.div3 .p1{
+text-align: center;
+position: relative;
+bottom: 70px;
+}
+@media (max-width:768px){
+    .div3 .p1{
+        padding-top: 10px;
+        text-align: start;
+        bottom: 0;
+    }
+}
+.section2{
+    display: block;
+    width: 35%;
+}
+@media (max-width:768px){
+    .section2{
+        display: block;
+        width: 100%;
+    }
+}
+
+.div4 h2{
+    position: relative;
+    top: 260px;
+    color: #fff;
+}
+ .div4 p{
+    position: relative;
+    top: 300px;
+    color: #fff;
+}
+.div5{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 70px;
+}
+@media(max-width:768px) {
+    .div5{
+        width: 100%;
+        margin-top: 67px;
+
+    }
+}
+.div01{
+    width: 100%;
+    height: 100%;
+}
+.div5 .h1{
+    color: #fff;
+    background-color: black;
+}
+.div5 .h4{
+    text-align: center;
+   margin: 30px 60px;
+}
+.div5 .img1 {
+    padding: 5px 5px;
+}
+.div01{
+display: flex;
+}
+.div6{
+    margin-top: 80px;
+}
+.div6 .adver {
+    color: #fff;
+    background-color: black;
+    padding: 10px 10px;
+    
+}
+.div6 .yr{
+    width: 99%;
+    padding-top: 100px;
+    background-color: rgb(190, 189, 189);
+
+}
+.div6 .yr h3{
+   text-align: center;
+   padding-bottom: 100px;
+}
+.div6 .dddd{
+    background-color: #fff;
+    padding: 15px 15px;
+}
+.div7{
+    background-color: #fff;
+     margin: 50px 0;
+}
+.div7 .h1{
+    color: #fff;
+    background-color: black;
+    padding: 10px 10px;
+}
+.div7 .bton{
+    background-color: black;
+    color: #fff;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.div7 .bton1{
+    padding: 2px 3px;
+    cursor: pointer;
+    margin: 10px 1px;
+}
+.div8{
+    background-color: #fff;
+    height: 150px;
+     margin: 50px 0;
+}
+.div8 h1{
+    color: #fff;
+    background-color: black;
+    padding: 10px 10px;
+}
+.div8 a{
+    color: black;
+    margin: 20px 10px;
+    
+}
+.div9{
+    background-color: #fff;
+     margin: 80px 0;
+}
+.div9 h1{
+    color: #fff;
+    background-color: black;
+    padding: 10px 10px;
+}
+.div9 input{ 
+    width: 97%;
+   padding: 6px 0; 
+   margin: 10px 5px;
+}
+
+.div9 .sub{
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+   width: 97%;
+   padding: 7px 0; 
+   margin: 10px 5px ;
+   border: none;
+}
+.div9 .sub:hover{
+   background-color: rgb(197, 3, 3);
+    color: #fff;
+}
+
+
+
+footer{
+    background-color: gray;
+    padding: 40px 0;
+}
+footer .top{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 10px;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+}
+footer .copyright{
+    color: #fff;
+    padding: 20px 20px;
+}
+footer .copyright a{
+    color: #fff;
+}
+/* footer */
+#subscribe1{
+   display: none; 
+}
+#subscribe2{
+   display: none; 
+}
+#subscribe3{
+   display: none; 
+}
+#subscribe{
+    display:none ;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hide{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5555;
+    padding-top: 200px;
+    padding-left: 300px;
+}
+@media (max-width:768px){
+    .hide{
+        width: 100%;
+        padding-top: 120px;
+        padding-left: 0;
+        padding: 0 10px;
+    }
+}
+#subscribe .show{
+    background-color: rgba(51, 51, 51, 0.5);
+    border: 2px solid #ddd;
+    padding: 35px;
+    width: 80%;
+}
+@media (max-width:768px){
+#subscribe .show{
+    margin-top: 100px;
+    background-color: rgba(51, 51, 51, 0.5);
+    border: 2px solid #ddd;
+    padding: 25px 10px;
+    width: 100%;
+  
+}
+}
+
+.btn-subscribe{
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    width: 81%;
+    padding: 5px 0; 
+    margin-bottom: 10px ;   
+    border: none;
+}
+
+@media (max-width:768px){
+    .btn-subscribe{
+    width: 81%;
+    padding: 4px 0; 
+    margin-bottom: 10px ;
+    }
+}
+.btn-subscribe:hover{
+     cursor: pointer;
+  background-color: rgb(197, 3, 3);
+    color: #fff;
+}
+.show input{
+    width: 81%;
+   padding: 5px 0; 
+   margin-bottom: 10px ;
+}
+@media (max-width:768px){
+    .show input{
+     width: 81%;
+   padding: 7px 0; 
+   margin-bottom: 10px ;
+    }
+}
+.show h2{
+    color: white;
+    padding-bottom: 20px;
+}
+.close{
+    border: none;
+    float: right;
+    text-align: end;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ddd;
+}
+#p{
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
